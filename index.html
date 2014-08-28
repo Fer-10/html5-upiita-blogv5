@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head contiene la configuración de
+		la página -->
+	<head>
+		<title>Mi Blog</title>
+		<meta charset="UTF-8" />
+		<!-- Bloque de estilo -->
+		<link href="css/normalize.css" rel="stylesheet"/>
+		<link href="css/estilos.css" rel="stylesheet" />
+	</head>
+	<!-- Body contiene lo que se va a mostrar -->
+	<body>
+		<header>
+			<div class="columna" id="titulo">
+				<h1>Artesanos del Software</h1>
+			</div>
+			<nav class="columna" id="barra-navegacion">
+				<ul>
+					<li>Inicio</li>
+					<li>Galeria</li>
+					<li>Canvas</li>
+					<li>Contacto</li>
+					<li>Ubicación</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="bienvenida">
+			Porque programar es un arte
+		</section>
+		<section id="servicios">
+			<div class="servicio">
+				<!-- Ruta relativa -->
+				<img src="estaticos/imagenes/servicios/ciencia.png" />
+				<p>Ciencia</p>
+			</div>
+			<div class="servicio">
+				<img src="estaticos/imagenes/servicios/desarrollo.png" />
+				<p>Desarrollo</p>
+			</div>
+			<div class="servicio">
+				<img src="estaticos/imagenes/servicios/videojuegos.png" />
+				<p>Videojuegos</p>
+			</div>
+		</section>
+		<section id="conocenos">
+			<h2>Conócenos</h2>
+			<div>
+				<div class="historia">
+					<img src="estaticos/imagenes/ceo/mono.jpg" />
+					<p>Nuestro CEO Dr.Mono</p>
+				</div>
+				<div class="historia">
+					<video controls="controls" poster="estaticos/imagenes/ceo/otro_mono.jpg">
+						<source src="estaticos/videos/bunsen.mp4" type="video/mp4" />
+					 	<source src="estaticos/videos/bunsen.webm" type="video/webm" />
+						<source src="estaticos/videos/bunsen.ogv" type="video/ogg" />
+						Tu navegador no soporta video
+					</video>
+					<p>Nuestra Historia</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="siguenos">
+				<h3>Síguenos</h3>
+				<div>
+					<img src="estaticos/imagenes/sociales/Facebook.png"/>
+					<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
+					<img src="estaticos/imagenes/sociales/Twitter.png"/>
+					<img src="estaticos/imagenes/sociales/github.png"/>
+				</div>
+			</div>
+			<div id="suscribete">
+				<h3>Suscríbete</h3>
+				<form>
+					<label for="email">Email: </label>
+					<input id="email" />
+					<input type="submit" text="enviar"/>
+				</form>
+			</div>
+			<div id="powered">
+				<h3>Powered by:</h3>
+				<ul>
+					<li>jQuery</li>
+					<li>Selenium</li>
+					<li>Heorku</li>
+					<li>Git</li>
+				</ul>
+			</div>
+		</footer>
+	</body>	
+</html>
+
+
+
+
