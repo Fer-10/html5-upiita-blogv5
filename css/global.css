@@ -1,0 +1,66 @@
+/*Selector de etiquetas*/
+header, footer {
+	/*Colores:palabra en ingles
+	 background-color: green;
+	 background-color: #FE3F44;
+	 background-color:rgb(78, 39, 168);*/
+	background-color: #3B2F63;
+	color: #FFFFFF;
+}
+/*Selector de id (solo lo puede tener una etiqueta)*/
+#bienvenida {
+	color: #FFFFFF;
+	text-align: center;
+	background-size: cover;
+	font-size: 1.8em;
+}
+#servicios {
+	padding: 1.5em;
+	font-size: 1.3em;
+	background-image: url("../estaticos/imagenes/fondo.png");
+	background-attachment: fixed;
+	/*text-align afecta a los elemntos de linea
+	 texto planos,imgenes,videos
+	 */
+	text-align: center;
+}
+#conocenos {
+	text-align: center;
+	background-color: #C7C0DE;
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;+++
+}
+
+/*Selector de descendientes*/
+#barra-navegacion ul li {
+	color: #c7c0de;
+	text-align: center;
+	line-height: 45px;
+}
+
+/*Imagenes y videos flexibles*/
+img, video {
+	max-width: 100%;
+}
+#titulo h1 {
+	padding-left: 7%;
+	/*Sombra al titulo*/
+	text-shadow: -3px 4px 0px rgba(202, 188, 225, 1);
+/*chrome safari*/
+	-webkit-text-shadow: -3px 4px 0px rgba(202, 188, 225, 1);
+/*opera*/
+	-o-text-shadow: -3px 4px 0px rgba(202, 188, 225, 1);
+/*ie8 para abajo*/
+	-ms-text-shadow: -3px 4px 0px rgba(202, 188, 225, 1);
+/*firefox*/
+	-moz-text-shadow: -3px 4px 0px rgba(202, 188, 225, 1);
+}
+#conocenos {
+	font-size: 1.2em;
+}
+
+
+
+
+
+

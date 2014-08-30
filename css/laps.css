@@ -1,0 +1,99 @@
+/*Estilos del Header*/
+header{
+/*Elposicionamiento fijo debe indicar el ancho de la caja
+ y su posicion top,bottom,left y right*/
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+#vacio{
+	height:77px;
+}
+
+.columna {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#titulo {
+	width: 40%;
+}
+#barra-navegacion {
+	width: 50%;
+}
+#barra-navegacion ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 17%;
+}
+/******Estilos dela Seccion de Bienvenida *******/
+#bienvenida {
+	background-image: url("../estaticos/imagenes/portada.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	line-height: 400px;
+}
+/****** Estilos de la seccion Servicios *****/
+.servicio {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+/***** Estilos dela seccion Conocenos ******/
+.historia {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+}
+/****** Estilosdel Footer ******/
+/*Selector de clase*/
+/*Para hacer columnas:
+ 1.-Las columnas en una caja
+ 2.-Cada columna es display:inline-block
+ 3.-Dar un ancho fijo a las columnas
+ 4.-alinearlashacia arriba vertical-align:top*/
+#suscribete, #powered, #siguenos {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#suscribete, #siguenos {
+	width: 35%;
+}
+#powered {
+	width: 15%;
+}
+#suscribete, #siguenos,#powered{
+	padding: 20px 0px 15px 35px;
+}
+
+#flota{
+	position:fixed;
+	right: 20px;
+	bottom:30px;
+	width:60px;
+	background-color:#C7C0DE;
+	text-align:center;
+	padding: 10px;
+/*valores del 0 al 1*/
+	opacity: .7;
+/*añadir los prefijos -webkit- -moz- -ms- -o-*/
+/*Esquinas redondas*/
+	border-radius: 25px 30px 35px 40px;
+/*sombras en las cajas*/
+	box-shadow: -10px 10px 0px 5px #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

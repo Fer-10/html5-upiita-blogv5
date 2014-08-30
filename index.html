@@ -5,12 +5,22 @@
 	<head>
 		<title>Mi Blog</title>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<!-- Colocando Favicon -->
+		<link href="estaticos/imagenes/favicon.png" rel="shortcut icon"/>
 		<!-- Bloque de estilo -->
 		<link href="css/normalize.css" rel="stylesheet"/>
-		<link href="css/estilos.css" rel="stylesheet" />
+		<!--Todos los dispositivos-->
+		<link href="css/global.css" rel="stylesheet" />
+		<!-- laps.ccs dispositivos de mas de 600px -->
+		<link href="css/laps.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+		<!-- moviles.css dispositivos de menos de 600px -->
+		<link href="css/movil.css" rel="stylesheet" media="screen and (max-width:600px)"/>
 	</head>
 	<!-- Body contiene lo que se va a mostrar -->
 	<body>
+		<div id="vacio">
+		</div>
 		<header>
 			<div class="columna" id="titulo">
 				<h1>Artesanos del Software</h1>
@@ -65,6 +75,12 @@
 			<div id="siguenos">
 				<h3>Síguenos</h3>
 				<div>
+					<img src="estaticos/imagenes/sociales/Facebook.png"/>
+					<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
+					<img src="estaticos/imagenes/sociales/Twitter.png"/>
+					<img src="estaticos/imagenes/sociales/github.png"/>
+				</div>
+				<div id="flota">
 					<img src="estaticos/imagenes/sociales/Facebook.png"/>
 					<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
 					<img src="estaticos/imagenes/sociales/Twitter.png"/>
