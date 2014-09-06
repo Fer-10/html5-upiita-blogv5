@@ -63,6 +63,11 @@ img, video {
 	font-size: 1.2em;
 }
 
+#barra-navegacion ul li a{
+	color: #C7C0DE;
+	/* quitar el subrayado de los enlaces */
+	text-decoration:none;
+}
 
 
 

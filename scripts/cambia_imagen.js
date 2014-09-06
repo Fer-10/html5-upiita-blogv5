@@ -15,6 +15,9 @@ $(function() {
 	});
 
 	mono.mouseout(function() {
-		mono.attr("src", "estaticos/imagenes/ceo/mono.jpg");
+		mono.slideToggle("slow", function() {
+			mono.attr("src", "estaticos/imagenes/ceo/mono.jpg");
+			mono.slideToggle("slow");
+		});
 	});
 });
