@@ -20,6 +20,27 @@
 		<link href="css/laps.css" rel="stylesheet" media="screen and (min-width:600px)"/>
 		<!-- moviles.css dispositivos de menos de 600px -->
 		<link href="css/movil.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+		<script src="vendors/jQuery/jquery-1.11.1.js"></script>
+		<script src="scripts/cambia_imagen.js"></script>
+		<script>
+		/*esta es la estructura basica para trabajr con jQuery*/
+		/*esta funcion se ejecuta hasta que TODO el DOM se cargo*/
+			$(function(){
+				/*Obtener las etiquetas a manipular
+				 mediante un selector de css*/
+				var parrafo = $("#prueba-jquery");
+				//obtiene el contenido de la etiqueta
+				//cuyo id es prueba-jquery
+				//alert( parrafo.html() );	
+				//cambia el contenido de la etiqueta
+				//parrafo.html("Otra cosa");
+				//alert( parrafo.attr("id") );	
+				//escuchando el evento click
+				/*parrafo.click( function(){
+					alert("Diste un click");
+				} );*/	
+			});
+		</script>
 	</head>
 	<!-- Body contiene lo que se va a mostrar -->
 	<body>
@@ -61,8 +82,8 @@
 			<h2>Conócenos</h2>
 			<div>
 				<div class="historia">
-					<img src="estaticos/imagenes/ceo/mono.jpg" />
-					<p>Nuestro CEO Dr.Mono</p>
+					<img id="imagen-mono" src="estaticos/imagenes/ceo/mono.jpg" />
+					<p id="prueba-jquery">Nuestro CEO Dr.Mono</p>
 				</div>
 				<div class="historia">
 					<video controls="controls" poster="estaticos/imagenes/ceo/otro_mono.jpg">
