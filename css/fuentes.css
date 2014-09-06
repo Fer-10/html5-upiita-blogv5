@@ -1,0 +1,11 @@
+/* Definicion de mis fuentes locales */
+@font-face{
+	font-family: 'Roboto';
+	/*Importar el archivo eot*/
+	src: url('../estaticos/fuentes/Roboto-Regular.eot');
+	/*versiones viejitas de ie y firefox*/
+	src: url('../estaticos/fuentes/Roboto-Regular.eot?#iefix') format('embbeded-opentype');
+	src: url('../estaticos/fuentes/Roboto-Regular.woff') format('woff');
+	src: url('../estaticos/fuentes/Roboto-Regular.ttf') format('truetype');
+	src: url('../estaticos/fuentes/Roboto-Regular.svg#Roboto-Regular') format('svg');
+}

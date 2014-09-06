@@ -1,3 +1,7 @@
+/*Aplicar una fuente a toda la Página*/
+body{
+	font-family:'Roboto-Regular';
+}
 /*Selector de etiquetas*/
 header, footer {
 	/*Colores:palabra en ingles
