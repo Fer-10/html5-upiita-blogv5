@@ -18,7 +18,7 @@ header, footer {
 	background-size: cover;
 	font-size: 1.8em;
 }
-#servicios {
+#servicios, #galeria {
 	padding: 1.5em;
 	font-size: 1.3em;
 	background-image: url("../estaticos/imagenes/fondo.png");
