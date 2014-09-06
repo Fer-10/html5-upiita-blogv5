@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<!-- Head contiene la configuración de
-		la página -->
+	la página -->
 	<head>
 		<title>Mi Blog</title>
 		<meta charset="UTF-8" />
@@ -23,29 +23,28 @@
 		<script src="vendors/jQuery/jquery-1.11.1.js"></script>
 		<script src="scripts/cambia_imagen.js"></script>
 		<script>
-		/*esta es la estructura basica para trabajr con jQuery*/
-		/*esta funcion se ejecuta hasta que TODO el DOM se cargo*/
-			$(function(){
+			/*esta es la estructura basica para trabajr con jQuery*/
+			/*esta funcion se ejecuta hasta que TODO el DOM se cargo*/
+			$(function() {
 				/*Obtener las etiquetas a manipular
 				 mediante un selector de css*/
 				var parrafo = $("#prueba-jquery");
 				//obtiene el contenido de la etiqueta
 				//cuyo id es prueba-jquery
-				//alert( parrafo.html() );	
+				//alert( parrafo.html() );
 				//cambia el contenido de la etiqueta
 				//parrafo.html("Otra cosa");
-				//alert( parrafo.attr("id") );	
+				//alert( parrafo.attr("id") );
 				//escuchando el evento click
 				/*parrafo.click( function(){
-					alert("Diste un click");
-				} );*/	
+				 alert("Diste un click");
+				 } );*/
 			});
 		</script>
 	</head>
 	<!-- Body contiene lo que se va a mostrar -->
 	<body>
-		<div id="vacio">
-		</div>
+		<div id="vacio"></div>
 		<header>
 			<div class="columna" id="titulo">
 				<h1>Artesanos del Software</h1>
@@ -70,7 +69,18 @@
 				</ul>
 			</nav>
 		</header>
-		
+		<section id="galeria">
+			<h2>Galería</h2>
+			<div id="contenedor-imagen">
+				<!-- Aquí va la imágen principal -->
+				<div id="descripcion-imagen">
+					Unos globlos
+				</div>
+			</div>
+			<div id="contenedor-preview">
+				<!-- Aquí va las imagenes de preview-->
+			</div>
+		</section>
 		<footer>
 			<div id="siguenos">
 				<h3>Síguenos</h3>
@@ -98,16 +108,21 @@
 			<div id="powered">
 				<h3>Powered by:</h3>
 				<ul>
-					<li>jQuery</li>
-					<li>Selenium</li>
-					<li>Heorku</li>
-					<li>Git</li>
+					<li>
+						jQuery
+					</li>
+					<li>
+						Selenium
+					</li>
+					<li>
+						Heorku
+					</li>
+					<li>
+						Git
+					</li>
 				</ul>
 			</div>
 		</footer>
-	</body>	
+	</body>
 </html>
-
-
-
 
