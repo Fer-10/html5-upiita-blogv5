@@ -73,7 +73,37 @@ img, video {
 #contenedor-imagen, #contenedor-preview{
 	background-color: #C7C0DE;
 	border-radius: 3px;
+	padding: 1em;
 }
+
+#descripcion-imagen{
+	background-color: #EEEEEE;
+}
+/*** Posicionar descripcion-imagen con respecto a
+ * contenedor-imagen 
+ * 1.- contenedor-imagen con posicionamiento relativo
+ * 2.- descripcion-imagen con posicionamiento absoluto
+ * 3.- dar la posicion que tendra descripcion-imagen con
+ * respecto al contenedor***/
+#contenedor-imagen{
+	position: relative;
+	border: solid 3px #C7C0DE;
+}
+#descripcion-imagen{
+	position: absolute;
+	left:0px;
+	right:0px;
+	bottom: 0px;
+	padding: 1em;
+	opacity: .7;
+}
+
+
+
+
+
+
+
 
 
 
