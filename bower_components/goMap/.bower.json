@@ -1,0 +1,15 @@
+{
+  "name": "goMap",
+  "homepage": "https://github.com/Atolye15-packs/goMap",
+  "version": "1.3.2",
+  "_release": "1.3.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.2",
+    "commit": "27177e796a245dc8d68676826e8beff2868cd67d"
+  },
+  "_source": "git://github.com/Atolye15-packs/goMap.git",
+  "_target": "~1.3.2",
+  "_originalSource": "goMap",
+  "_direct": true
+}

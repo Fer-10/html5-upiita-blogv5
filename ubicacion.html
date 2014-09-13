@@ -22,7 +22,12 @@
 		<link href="css/laps.css" rel="stylesheet" media="screen and (min-width:600px)"/>
 		<!-- moviles.css dispositivos de menos de 600px -->
 		<link href="css/movil.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+		<!-- Para que google vea las estadisticas de losmapas que consultamos-->
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		
 		<script src="vendors/jQuery/jquery-1.11.1.js"></script>
+		<script src="bower_components/goMap/jquery.gomap-1.3.2.js"></script>
+		<script src="scripts/mapa.js"></script>
 		<script src="scripts/galeria.js"></script>
 		<script src="scripts/cambia_imagen.js"></script>
 		<script src="scripts/sociales.js"></script>
@@ -73,7 +78,11 @@
 				</ul>
 			</nav>
 		</header>
-
+		
+		<section id="ubicacion">
+			<div id="mapa"></div>			
+		</section>
+		
 		<footer>
 			<div id="siguenos">
 				<h3>Síguenos</h3>

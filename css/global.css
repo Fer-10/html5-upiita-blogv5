@@ -18,7 +18,7 @@ header, footer {
 	background-size: cover;
 	font-size: 1.8em;
 }
-#servicios, #galeria {
+#servicios, #galeria, #ubicacion {
 	padding: 1.5em;
 	font-size: 1.3em;
 	background-image: url("../estaticos/imagenes/fondo.png");
@@ -112,6 +112,19 @@ header{
 #powered ul li i{
 	font-size: 0.5em;
 }
+/*** Estilos de la ubicacion ***/
+/*El alto y ancho deldiv que contiene el mapa es fijo 
+ y se debe colocar en pixeles*/
+#mapa{
+	width: 600px;
+	height: 600px;
+	border: solid 3px #3B2F63;
+}
+
+
+
+
+
 
 
 
