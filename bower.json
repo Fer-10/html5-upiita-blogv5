@@ -1,0 +1,17 @@
+{
+  "name": "html5-upiita-blogv5",
+  "version": "0.0.1",
+  "homepage": "https://github.com/codeismo/html5-upiita-blogv5",
+  "authors": [
+    "Daniela Aguirre <daniela@codeismo.com>"
+  ],
+  "description": "Blog del curso de HTML5",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

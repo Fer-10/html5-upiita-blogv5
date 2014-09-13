@@ -5,7 +5,7 @@ $(function() {
 	var imagenes_sociales = $("#imagenes-sociales");
 	enlace.click(function() {
 		//3.- ocultar el contenedor de imagenes (display: none)
-		if( imagenes_sociales.css("display") === "block" ) {
+		if( imagenes_sociales.css("display") === "block" ) {			
 			imagenes_sociales.css("display", "none");
 			enlace.html("abrir");
 			

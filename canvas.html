@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head contiene la configuración de
+	la página -->
+	<head>
+		<title>Mi Blog</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<!-- Colocando Favicon -->
+		<link href="estaticos/imagenes/favicon.png" rel="shortcut icon"/>
+		<!-- Bloque de estilo -->
+		<link href="css/normalize.css" rel="stylesheet"/>
+		<!-- Estilos de Fonts Awesome -->
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		<!-- Fuentes desde servidor de Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<!-- Fuentes desde locales (desde mi proyecto)-->
+		<link href="css/fuentes.css" rel="stylesheet"/>
+		<!--Todos los dispositivos-->
+		<link href="css/global.css" rel="stylesheet" />
+		<!-- laps.ccs dispositivos de mas de 600px -->
+		<link href="css/laps.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+		<!-- moviles.css dispositivos de menos de 600px -->
+		<link href="css/movil.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+		<script src="vendors/jQuery/jquery-1.11.1.js"></script>
+		<script src="scripts/galeria.js"></script>
+		<script src="scripts/cambia_imagen.js"></script>
+		<script src="scripts/sociales.js"></script>
+		<script>
+			/*esta es la estructura basica para trabajr con jQuery*/
+			/*esta funcion se ejecuta hasta que TODO el DOM se cargo*/
+			$(function() {
+				/*Obtener las etiquetas a manipular
+				 mediante un selector de css*/
+				var parrafo = $("#prueba-jquery");
+				//obtiene el contenido de la etiqueta
+				//cuyo id es prueba-jquery
+				//alert( parrafo.html() );
+				//cambia el contenido de la etiqueta
+				//parrafo.html("Otra cosa");
+				//alert( parrafo.attr("id") );
+				//escuchando el evento click
+				/*parrafo.click( function(){
+				 alert("Diste un click");
+				 } );*/
+			});
+		</script>
+	</head>
+	<!-- Body contiene lo que se va a mostrar -->
+	<body>
+		<div id="vacio"></div>
+		<header>
+			<div class="columna" id="titulo">
+				<h1>Artesanos del Software</h1>
+			</div>
+			<nav class="columna" id="barra-navegacion">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="galeria.html">Galeria</a>
+					</li>
+					<li>
+						<a href="canvas.html">Canvas</a>
+					</li>
+					<li>
+						<a href="contacto.html">Contacto</a>
+					</li>
+					<li>
+						<a href="ubicacion.html">Ubicación</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<footer>
+			<div id="siguenos">
+				<h3>Síguenos</h3>
+				<div id="sociales-awesome">
+					<i class="fa fa-facebook-square"></i>
+					<i class="fa fa-twitter-square"></i>
+					<i class="fa fa-google-plus-square"></i>
+					<i class="fa fa-git-square"></i>
+				</div>
+				<div id="flota">
+					<div id="imagenes-sociales">
+						<img src="estaticos/imagenes/sociales/Facebook.png"/>
+						<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
+						<img src="estaticos/imagenes/sociales/Twitter.png"/>
+						<img src="estaticos/imagenes/sociales/github.png"/>
+					</div>
+					<a data-estado="cerrar" href="#" >close</a>
+				</div>
+			</div>
+			<div id="suscribete">
+				<h3>Suscríbete</h3>
+				<form>
+					<label for="email">Email: </label>
+					<input id="email" />
+					<input type="submit" text="enviar"/>
+				</form>
+			</div>
+			<div id="powered">
+				<h3>Powered by:</h3>
+				<ul class="fa-ul">
+					<li>
+						<i class="fa-li fa fa-square"> </i>
+						jQuery
+					</li>
+					<li>
+						<i class="fa-li fa fa-square"> </i>
+						Selenium
+					</li>
+					<li>
+						<i class="fa-li fa fa-square"> </i>
+						Heorku
+					</li>
+					<li>
+						<i class="fa-li fa fa-square"> </i>
+						Git
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
+
