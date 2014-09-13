@@ -98,6 +98,9 @@ img, video {
 	opacity: .7;
 }
 
+header{
+	z-index: 100;
+}
 
 
 
