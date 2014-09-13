@@ -1,9 +1,9 @@
 $(function() {
 	/*** Obtener con jQuery las cajas a manipular ***/
 	var previews = $("#contenedor-preview img");
-	var principal = $("#contenedor-imagen img");
+	var principal = $("#contenedor-imagen-estatico img");
 	var descripcion_imagen = $("#descripcion-imagen");
-	var contenedor = $("#contenedor-imagen");
+	var contenedor = $("#contenedor-imagen-estatico");
 	/** Escucho el evento click sobre las imagenes de
 	 *preview  **/
 	previews.click(function(evento) {
