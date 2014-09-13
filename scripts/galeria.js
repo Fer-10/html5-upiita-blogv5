@@ -11,9 +11,9 @@ $( function(){
 		var ruta = imagen_clikeada.data("src-principal");
 		var descripcion = imagen_clikeada.data("descripcion");		
 		//cambiar el src de principal
-		
+		principal.attr("src", ruta);
 		//cambiar el html de descripcion
-		
+		descripcion_imagen.html( descripcion );
 	} );
 	
 } );
