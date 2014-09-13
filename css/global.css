@@ -102,6 +102,13 @@ header{
 	z-index: 100;
 }
 
+#galeria{
+	height:700px;
+}
+
+#contenedor-imagen-estatico{
+	height:500px;
+}
 
 
 

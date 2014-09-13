@@ -23,6 +23,7 @@
 		<script src="vendors/jQuery/jquery-1.11.1.js"></script>
 		<script src="scripts/galeria.js"></script>
 		<script src="scripts/cambia_imagen.js"></script>
+		<script src="scripts/sociales.js"></script>
 		<script>
 			/*esta es la estructura basica para trabajr con jQuery*/
 			/*esta funcion se ejecuta hasta que TODO el DOM se cargo*/
@@ -73,11 +74,13 @@
 		<section id="galeria">
 			<h2>Galería</h2>
 			<div id="contenedor-imagen">
-				<!-- Aquí va la imágen principal -->
-				<img src="estaticos/imagenes/galeria/principal1.jpg"/>
-				<div id="descripcion-imagen">
-					Unos globlos
+				<div id="contenedor-imagen-estatico">
+					<img src="estaticos/imagenes/galeria/principal1.jpg"/>
+					<div id="descripcion-imagen">
+						Unos globlos
+					</div>
 				</div>
+				<!-- Aquí va la imágen principal -->
 			</div>
 			<div id="contenedor-preview">
 				<!-- Aquí va las imagenes de preview-->
@@ -96,10 +99,13 @@
 					<img src="estaticos/imagenes/sociales/github.png"/>
 				</div>
 				<div id="flota">
-					<img src="estaticos/imagenes/sociales/Facebook.png"/>
-					<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
-					<img src="estaticos/imagenes/sociales/Twitter.png"/>
-					<img src="estaticos/imagenes/sociales/github.png"/>
+					<div id="imagenes-sociales">
+						<img src="estaticos/imagenes/sociales/Facebook.png"/>
+						<img src="estaticos/imagenes/sociales/GooglePlus.png"/>
+						<img src="estaticos/imagenes/sociales/Twitter.png"/>
+						<img src="estaticos/imagenes/sociales/github.png"/>
+					</div>
+					<a href="#" >cerrar</a>
 				</div>
 			</div>
 			<div id="suscribete">
