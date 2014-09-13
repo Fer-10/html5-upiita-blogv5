@@ -68,7 +68,12 @@ img, video {
 	/* quitar el subrayado de los enlaces */
 	text-decoration:none;
 }
+/** Galeria **/
 
+#contenedor-imagen, #contenedor-preview{
+	background-color: #C7C0DE;
+	border-radius: 3px;
+}
 
 
 
